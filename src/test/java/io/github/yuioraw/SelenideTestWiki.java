@@ -7,7 +7,8 @@ import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
 
 public class SelenideTestWiki {
-
+    //  задание 1: 1.$("h1 div") - поиск первого вложенного div внутри h1
+    //$("h1").$("div") - поиск сначла перевого h1, а  в нем первого div
 
 
     @Test
